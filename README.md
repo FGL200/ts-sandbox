@@ -13,8 +13,8 @@ The program is dependent on:
 To Recreate this from an empty folder:
 1. In terminal run `npm init` and press Enter until prompts are complete.
 2. Install:
-   a. npm install typescript
-   b. npm install onchange --save-dev
+   1. npm install typescript
+   2. npm install onchange --save-dev
 3. In ternimal run `npx tsc --init`, this will create `tsconfig.json`
 4. In `tsconfig.json` uncomment the line containing `outDir` and change its value to `"./dist"` (usually on line 58) and save the file.
 5. In `package.json` remove everything and replace the value of `"scripts"` with:
