@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx tsc && echo Output: && node dist/index.js",
+    "start": "cls && npx tsc && cls && echo Output: && node dist/index.js",
     "dev" : "onchange -i -k src/* -- npm run start"
   },
   "author": "",
