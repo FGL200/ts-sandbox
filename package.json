@@ -5,11 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "cls && npx tsc && cls && echo Output: && node dist/index.js",
-    "dev" : "onchange -i -k src/* -- npm run start"
+    "dev": "onchange -i -k src/* -- npm run start"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "onchange": "^7.1.0"
   }
 }
